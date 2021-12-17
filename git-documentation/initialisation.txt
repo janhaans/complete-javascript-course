@@ -1,0 +1,18 @@
+Clone the repository "https://github.com/jonassschmedtmann/complete-javascript-course.git"
+$> git clone https://github.com/jonasschmedtmann/complete-javascript-course.git
+
+Show all branches (including remote branches)
+$> git branch -a 
+Show remote branch (verbose)
+$> git remote -v
+
+Delete remote branch named origin
+$> git remote rm origin
+
+Create in Github new repository named github.com/janhaans/complete-javascript-course
+Make sure that SSH authentication is enabled from your Macbook to Github (see Gihub documentation)
+Create remote branch named origin
+$> git remote add origin git@github.com:janhaans/complete-javascript-course.git
+
+Push the local repository to Github repository:
+$> git push -u origin master
